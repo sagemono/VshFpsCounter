@@ -1,0 +1,23 @@
+Use the stub files from lib directory found in root folder:
+
+liballocator_export_stub.a
+libcrashdump_system_export_stub.a
+libesecron_export_stub.a
+libmd5.a
+libmms_db_export_stub.a
+libnetctl_main_export_stub.a
+libntfs_prx.a
+libpaf_export_stub.a
+libpngdec_ppuonly_export_stub.a
+libsdk_export_stub.a
+libstdc_export_stub.a
+libsys_io_export_stub.a
+libsys_net_export_stub.a
+libsysPrxForUser_export_stub.a
+libvsh_export_stub.a
+libvshcommon_export_stub.a
+libvshmain_export_stub.a
+libvshnet_export_stub.a
+libvshtask_export_stub.a
+libx3_export_stub.a
+libxsetting_export_stub.a
