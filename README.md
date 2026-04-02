@@ -4,6 +4,8 @@ A VSH overlay that displays real in-game performance metrics. Unlike the origina
 
 ![An example with every option enabled](assets/counter.webp)
 
+[Demo Video](https://www.youtube.com/watch?v=Ut3g4BdBK_8)
+
 ---
 
 ## Architecture
