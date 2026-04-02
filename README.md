@@ -248,7 +248,9 @@ Build `FpsSensor` project first, then `RouLetteVshMenu`.
 
 Incompatible games or games that have issues:
 
-* Skyrim
+* Skyrim 
+
+If you have incompatible games you come across, please make an issue.
 
 ---
 
