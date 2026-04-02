@@ -2,6 +2,8 @@
 
 A VSH overlay that displays real in-game performance metrics. Unlike the original [VshFpsCounter](https://github.com/aldostools/webMAN-MOD/tree/master/_Projects_/VshFpsCounter) which reads FPS approximations from PAF, this fork measures actual frame timing directly from RSX hardware without touching the game's rendering pipeline.
 
+![An example with every option enabled](assets/counter.webp)
+
 ---
 
 ## Architecture
@@ -213,10 +215,10 @@ Temperatures are always in Celsius regardless of the display setting. Rows are b
 
 ## Installation
 
-1. Copy `fps_sensor.sprx` to `/dev_hdd0/tmp/wm_res/VshFpsCounter/fps_sensor.sprx`
-2. Copy `VshFpsCounter.sprx` to `/dev_hdd0/wm_res/`
+1. Copy `VshFpsCounter.sprx` to `/dev_hdd0/wm_res/`
+2. Copy `fps_sensor.sprx` to `/dev_hdd0/tmp/wm_res/VshFpsCounter/`
 
-The sensor is injected into the game process automatically on game launch if the menu is open.
+The sensor is injected into the game process automatically on game launch if the menu was opened in the XMB.
 
 ### Tree
 
@@ -239,6 +241,14 @@ In the end, your directory structure should look like this
 - Sony PS3 SDK 4.75+
 
 Build `FpsSensor` project first, then `RouLetteVshMenu`.
+
+---
+
+## Known Issues
+
+Incompatible games or games that have issues:
+
+* Skyrim
 
 ---
 
