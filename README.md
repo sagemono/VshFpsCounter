@@ -217,6 +217,8 @@ Temperatures are always in Celsius regardless of the display setting. Rows are b
 
 ## Installation
 
+Download the .zip from the [Releases](https://github.com/sagemono/VshFpsCounter/releases) tab. Extract those files and place them in `/dev_hdd0/tmp/wm_res`
+
 1. Copy `VshFpsCounter.sprx` to `/dev_hdd0/wm_res/`
 2. Copy `fps_sensor.sprx` to `/dev_hdd0/tmp/wm_res/VshFpsCounter/`
 
